@@ -13,6 +13,6 @@ class categories extends Model
     //  Relationship: One category has many articles
     public function articles(): HasMany
     {
-        return $this->hasMany(Article::class);
+        return $this->hasMany(articles::class);
     }
 }
